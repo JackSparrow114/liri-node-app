@@ -1,20 +1,17 @@
 {
-  "name": "liri-node-app",
+  "name": "liri",
   "version": "1.0.0",
-  "description": "a nodejs app for command line processing",
-  "main": "index.js",
+  "description": "",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JackSparrow114/liri-node-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JackSparrow114/liri-node-app/issues"
-  },
-  "homepage": "https://github.com/JackSparrow114/liri-node-app#readme"
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  }
 }
